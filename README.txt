@@ -11,3 +11,5 @@ If you like it and/or use it please let me know. It will me make all worm and fu
 If you are having any problems with it, also let me know. I will not get worm and fuzzy but I will try to help out.
 
 The license is MIT so you can use it however you want as long as you mention me somewhere.
+
+Enjoy! :)
