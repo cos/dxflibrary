@@ -1,0 +1,10 @@
+C:\Users\Cosmin\Projects\ProFocus - UST\Sharp-top\DXFLibrary\bin\Release\DXFLibrary.dll
+C:\Users\Cosmin\Projects\ProFocus - UST\Sharp-top\DXFLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Cosmin\Projects\ProFocus - UST\Sharp-top\DXFLibrary\obj\Release\DXFLibrary.dll
+C:\Users\Cosmin\Projects\de ordonat\ProFocus - UST\Sharp-top\DXFLibrary\bin\Release\DXFLibrary.dll
+C:\Users\Cosmin\Projects\de ordonat\ProFocus - UST\Sharp-top\DXFLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Cosmin\Projects\de ordonat\ProFocus - UST\Sharp-top\DXFLibrary\obj\Release\DXFLibrary.dll
+C:\Users\Cosmin\Projects\DXFLibrary\bin\Release\DXFLibrary.dll
+C:\Users\Cosmin\Projects\DXFLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Cosmin\Projects\DXFLibrary\obj\Release\DXFLibrary.dll
+C:\Users\Cosmin\Projects\DXFLibrary\bin\Release\DXFLibrary.dll.config
