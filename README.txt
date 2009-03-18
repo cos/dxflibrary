@@ -6,6 +6,8 @@ I have written the library a long time ago for a project for my father. It doesn
 
 If you look around the code you will see that everything is simple and clear.
 
+There is an usage example in EXAMPLE.txt.
+
 If you like it and/or use it please let me know. It will me make all worm and fuzzy :)
 
 If you are having any problems with it, also let me know. I will not get worm and fuzzy but I will try to help out.

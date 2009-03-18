@@ -1,0 +1,30 @@
+﻿﻿DXFLibrary.Document doc = new DXFLibrary.Document();
+ 
+DXFLibrary.Tables tables = new DXFLibrary.Tables();
+doc.SetTables(tables);
+ 
+DXFLibrary.Table layers = new DXFLibrary.Table("LAYER");
+tables.addTable(layers);
+ 
+DXFLibrary.Layer layerDoors;
+layerDoors = new DXFLibrary.Layer("Doors", 30, "CONTINUOUS");
+layers.AddTableEntry(layerDoors);
+
+DXFLibrary.Circle cc = new DXFLibrary.Circle(5, 5, 0.1d, "PartialHeightDoors");
+doc.add(cc);
+ 
+DXFLibrary.Line line1 = new DXFLibrary.Line("Doors", 0, 0, 0, 10);
+doc.add(line1);
+DXFLibrary.Line line2 = new DXFLibrary.Line("Doors", 0, 0, 10, 0);
+doc.add(line2);
+DXFLibrary.Line line3 = new DXFLibrary.Line("Doors", 10, 10, 0, 10);
+doc.add(line3);
+DXFLibrary.Line line4 = new DXFLibrary.Line("Doors", 10, 10, 10, 0);
+doc.add(line4);
+ 
+DXFLibrary.Line3D line5 = new DXFLibrary.Line3D("Doors", 2, 2, 0, 5, 5, 10);
+doc.add(line5);
+ 
+FileStream f1 = new FileStream("test2.dxf", System.IO.FileMode.Create);
+DXFLibrary.Writer.Write(doc, f1);
+f1.Close();
