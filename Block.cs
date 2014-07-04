@@ -25,9 +25,9 @@ namespace DXFLibrary
 		}
 		public void SetEndBlk(EndBlk eb) 
 		{
-			if(this.elements.Count>0&&((Element)this.elements[this.elements.Count-1]).Name == "ENDBLK")
+			if(this.elements.Count > 0 && ((Element)this.elements[this.elements.Count-1]).Name == "ENDBLK")
 			{
-				this.elements.RemoveAt(this.data.Count-1);
+				this.elements.RemoveAt(this.elements.Count-1);
 			}
 			this.elements.Add(eb);
 		}
