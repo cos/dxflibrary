@@ -3,7 +3,7 @@ using System;
 namespace DXFLibrary
 {
 	/// <summary>
-	/// Representation of an enetity in DXF ( in general ). The class is refined trough derivation.
+	/// Representation of an entity in DXF ( in general ). The class is refined trough derivation.
 	/// </summary>
 	public abstract class Entity : DXFLibrary.Element
 	{
